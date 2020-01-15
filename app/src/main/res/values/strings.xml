@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HitungVolumeApp</string>
+    <string name="length">Panjang</string>
+    <string name="width">Lebar</string>
+    <string name="height">Tinggi</string>
+    <string name="btn_text_hitung">HITUNG</string>
+    <string name="tv_hasil">HASIL</string>
+    <string name="activity_title">Hitung Volume App</string>
+    <string name="btn_text_reset">RESET</string>
+</resources>

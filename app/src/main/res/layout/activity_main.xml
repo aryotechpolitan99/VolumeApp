@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ln_layout_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_white"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/tv_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/length"
+        android:textSize="@dimen/tv_input_potrait" />
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/width"
+        android:textSize="@dimen/tv_input_potrait" />
+
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:textSize="@dimen/tv_input_potrait" />
+
+    <EditText
+        android:id="@+id/et_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/tv_hasil"
+        android:textAlignment="center"
+        android:textColor="@color/bg_color_btn"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/shape_hitung"
+        android:text="@string/btn_text_hitung"
+        android:textAlignment="center"
+        android:textColor="@color/bg_color_white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_hitung"
+        android:text="@string/btn_text_reset"
+        android:textAlignment="center"
+        android:textColor="@color/bg_color_white"
+        android:textSize="30sp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
