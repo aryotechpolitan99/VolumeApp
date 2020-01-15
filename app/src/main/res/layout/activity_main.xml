@@ -51,16 +51,6 @@
         android:lines="1" />
 
 
-    <TextView
-        android:id="@+id/tv_hasil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="@string/tv_hasil"
-        android:textAlignment="center"
-        android:textColor="@color/bg_color_btn"
-        android:textSize="60sp" />
-
     <Button
         android:id="@+id/btn_hitung"
         android:layout_width="match_parent"
@@ -72,11 +62,21 @@
         android:textColor="@color/bg_color_white"
         android:textSize="30sp" />
 
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_hasil"
+        android:textAlignment="center"
+        android:textColor="@color/bg_color_btn"
+        android:textSize="60sp" />
+
     <Button
         android:id="@+id/btn_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/shape_hitung"
         android:text="@string/btn_text_reset"
         android:textAlignment="center"

@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void reset(){
         etPanjang.setText("");
         etLebar.setText("");
-        etLebar.setText("");
+        etTinggi.setText("");
+        tvHasil.setText("");
     }
 
     private void hitungVolume(String paramPanjang, String paramLebar, String paramTinggi) {
